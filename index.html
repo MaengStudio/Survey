@@ -1,0 +1,1728 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+    <title>근골격계 유해요인 조사 설문지</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+</head>
+
+<body>
+    <div id="wrap">
+
+        <div class="board">
+            <div class="paper">
+                <div class="tongs"></div>
+                <p class="date">2020-03-01</p>
+                <h2><img src="images/icon01.jpg" />근골격계 유해요인 조사 설문지</h2>
+                <p class="info">
+                    # 본 조사는 근골격계부담 작업에 대한 설문조사로<br />
+                    ‘산업안전보건법 보건규칙 제 657조’에 의거 매 3년마다 실시되는 정기조사입니다.<br />
+                    귀 사업장의 상황 및 개선대책 수립을 위한 설문이며<br />
+                    본 조사를 위한용도 외에는 사용되지 않음을 알려드립니다.
+                </p>
+                <section id="s01" class="cf">
+                    <div class="form_01">
+                        <ul>
+                            <li>
+                                <span>성명</span><input type="text" placeholder="홍길동">
+                            </li>
+                            <li>
+                                <span>부서명</span><input type="text" placeholder="">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="form_02">
+                        <ul>
+                            <li class="radio">
+                                <span style="width:110px;">성별</span style="width:90px;">
+                                <input type="radio" id="form_02_01" value="1" name="sex">
+                                <label class="1" for="form_02_01">
+                                    <div style="text-indent:0;">남</div>
+                                </label>
+                                <input type="radio" id="form_02_02" value="2" name="sex">
+                                <label class="2" for="form_02_02">
+                                    <div style="text-indent:0;">여</div>
+                                </label>
+                            </li>
+                            <li>
+                                <span style="width:110px;">결혼상태</span>
+                                <input type="radio" id="form_02_03" value="1" name="merried">
+                                <label class="1" for="form_02_03">
+                                    <div style="font-size:14px; text-indent: -5px; line-height: 19px;">미혼</div>
+                                </label>
+                                <input type="radio" id="form_02_04" value="2" name="merried">
+                                <label class="2" for="form_02_04">
+                                    <div style="font-size:14px; text-indent: -5px; line-height: 19px;">기혼</div>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="form_03">
+
+                        <ul class="cf">
+                            <li>
+                                <span>연령</span>
+                                <p>만</p><input type="text">
+                                <p>세</p>
+                            </li>
+                            <li>
+                                <span>신장</span><input type="text">
+                                <p>cm</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="form_04">
+                        <ul>
+                            <li>
+                                <span>현 직장 근무기간</span> <input type="text">
+                                <p>년</p><input type="text">
+                                <p>개월</p>
+                            </li>
+                            <li>
+                                <span>현 업무(작업)기간</span> <input type="text">
+                                <p>년</p><input type="text">
+                                <p>개월</p>
+                            </li>
+                            <li>
+                                <span>근무시간(1일)</span> <input type="text">
+                                <p>시간
+                            </li>
+                            <li>
+                                <span>휴식시간(식사시간 제외)</span> <input type="text">
+                                <p>시간</p><input type="text">
+                                <p>분</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="s02">
+                    <p class="alert"># 해당 되거나, 가장 가까운 곳에 표시해주세요 :D</p>
+                    <div class="form_05">
+                        <ul>
+                            <li>
+                                <h4>
+                                    1. 규칙적인 (한번에 30분 이상, 1주일에 적어도 2~3회 이상)<br />
+                                    여가 및 취미활동을 하고 있습니까?<br />
+                                    (※ 신체활동성의 강도가 가장 가까운 항목에 표시)
+                                </h4>
+                                <div>
+                                    <input type="radio" id="form_05_01_01" name="form_05_01" value="1">
+                                    <label class="1" for="form_05_01_01">
+                                        <div>1</div>
+                                    </label class="">
+                                    <h3>컴퓨터 관련 활동</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_01_02" name="form_05_01" value="2">
+                                    <label class="2" for="form_05_01_02">
+                                        <div>2</div>
+                                    </label>
+                                    <h3>악기연주 피아노/바이올린 등</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_01_03" name="form_05_01" value="3">
+                                    <label class="3" for="form_05_01_03">
+                                        <div>3</div>
+                                    </label>
+                                    <h3>뜨개질/자수/그림/붓글씨 등</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_01_04" name="form_05_01" value="4">
+                                    <label class="4" for="form_05_01_04">
+                                        <div>4</div>
+                                    </label>
+                                    <h3>테니스/배드민턴/스쿼시/탁구/골프 등</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_01_05" name="form_05_01" value="5">
+                                    <label class="5" for="form_05_01_05">
+                                        <div>5</div>
+                                    </label>
+                                    <h3>축구/족구/농구/스키/수영 등</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_01_06" name="form_05_01" value="6">
+                                    <label class="6" for="form_05_01_06">
+                                        <div>6</div>
+                                    </label>
+                                    <h3>해당사항 없음</h3>
+                                </div>
+                            </li>
+                            <li>
+                                <h4>
+                                    2. 귀하의 하루 평균 가사노동시간(밥하기, 빨래하기, 청소하기, 2살 미만의<br />
+                                    아이 돌보기 등)은 얼마나 됩니까?
+                                </h4>
+                                <div>
+                                    <input type="radio" id="form_05_02_01" name="form_05_02" value="1">
+                                    <label class="1" for="form_05_02_01">
+                                        <div>1</div>
+                                    </label class="">
+                                    <h3>거의 하지 않는다</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_02_02" name="form_05_02" value="2">
+                                    <label class="2" for="form_05_02_02">
+                                        <div>2</div>
+                                    </label>
+                                    <h3>1시간 미만</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_02_03" name="form_05_02" value="3">
+                                    <label class="3" for="form_05_02_03">
+                                        <div>3</div>
+                                    </label>
+                                    <h3>1~2시간 미만</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_02_04" name="form_05_02" value="4">
+                                    <label class="4" for="form_05_02_04">
+                                        <div>4</div>
+                                    </label>
+                                    <h3>2~4시간 미만</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_02_05" name="form_05_02" value="5">
+                                    <label class="5" for="form_05_02_05">
+                                        <div>5</div>
+                                    </label>
+                                    <h3>3시간 이상</h3>
+                                </div>
+                            </li>
+                            <li>
+                                <h4>
+                                    3. 귀하는 의사로부터 다음과 같은 질병에 대해 진단을 받은 적이 있습니까?
+                                </h4>
+                                <div>
+                                    <input type="radio" id="form_05_03_01" name="form_05_03" value="1">
+                                    <label class="1" for="form_05_03_01">
+                                        <div>1</div>
+                                    </label class="">
+                                    <h3>류머티스 관절염</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_03_02" name="form_05_03" value="2">
+                                    <label class="2" for="form_05_03_02">
+                                        <div>2</div>
+                                    </label>
+                                    <h3>당뇨병</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_03_03" name="form_05_03" value="3">
+                                    <label class="3" for="form_05_03_03">
+                                        <div>3</div>
+                                    </label>
+                                    <h3>루프스병</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_03_04" name="form_05_03" value="4">
+                                    <label class="4" for="form_05_03_04">
+                                        <div>4</div>
+                                    </label>
+                                    <h3>통풍</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_03_05" name="form_05_03" value="5">
+                                    <label class="5" for="form_05_03_05">
+                                        <div>5</div>
+                                    </label>
+                                    <h3>알코올 중독</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_03_06" name="form_05_03" value="6">
+                                    <label class="6" for="form_05_03_06">
+                                        <div>6</div>
+                                    </label>
+                                    <h3>해당사항 없음</h3>
+                                </div>
+                            </li>
+                            <li>
+                                <h4>
+                                    4. 과거에 운동 중 혹은 사고로(교통사고, 넘어짐, 추락 등)인해<br />
+                                    손/손가락/손목, 팔/팔꿈치, 어깨, 목, 허리, 다리/발<br />
+                                    부위를 다친 적이 있습니까?
+                                </h4>
+                                <div>
+                                    <input type="radio" id="form_05_04_01" name="form_05_04" value="1">
+                                    <label class="1" for="form_05_04_01">
+                                        <div>1</div>
+                                    </label class="">
+                                    <h3>손/손가락/손목</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_04_02" name="form_05_04" value="2">
+                                    <label class="2" for="form_05_04_02">
+                                        <div>2</div>
+                                    </label>
+                                    <h3>팔/팔꿈치</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_04_03" name="form_05_04" value="3">
+                                    <label class="3" for="form_05_04_03">
+                                        <div>3</div>
+                                    </label>
+                                    <h3>어깨</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_04_04" name="form_05_04" value="4">
+                                    <label class="4" for="form_05_04_04">
+                                        <div>4</div>
+                                    </label>
+                                    <h3>목</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_04_05" name="form_05_04" value="5">
+                                    <label class="5" for="form_05_04_05">
+                                        <div>5</div>
+                                    </label>
+                                    <h3>허리</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_04_06" name="form_05_04" value="6">
+                                    <label class="6" for="form_05_04_06">
+                                        <div>6</div>
+                                    </label>
+                                    <h3>다리/발</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_04_07" name="form_05_04" value="7">
+                                    <label class="7" for="form_05_04_07">
+                                        <div>7</div>
+                                    </label>
+                                    <h3>해당사항 없음</h3>
+                                </div>
+                            </li>
+                            <li>
+                                <h4>
+                                    5. 현재 하고 계시는 일의 육체적 부담은 어느 정도라고 생각하십니까?
+                                </h4>
+                                <div>
+                                    <input type="radio" id="form_05_05_01" name="form_05_05" value="1">
+                                    <label class="1" for="form_05_05_01">
+                                        <div>1</div>
+                                    </label>
+                                    <h3>전혀 힘들지 않음</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_05_02" name="form_05_05" value="2">
+                                    <label class="2" for="form_05_05_02">
+                                        <div>2</div>
+                                    </label>
+                                    <h3>견딜 만 함</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_05_03" name="form_05_05" value="3">
+                                    <label class="3" for="form_05_05_03">
+                                        <div>3</div>
+                                    </label>
+                                    <h3>약간 힘듦</h3>
+                                </div>
+                                <div>
+                                    <input type="radio" id="form_05_05_04" name="form_05_05" value="4">
+                                    <label class="4" for="form_05_05_04">
+                                        <div>4</div>
+                                    </label>
+                                    <h3>매우 힘듦</h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="s03">
+                    <div class="border"></div>
+                    <p class="alert">
+                        # 지난 1년 동안 손/손가락/손목, 팔/팔꿈치, 어깨, 허리, 다리/발 중<br/>
+                        어느 한 부위에서라도 귀하의 작업과 관련하여 통증이나 불편함<br/>
+                        (통증, 쑤시는 느낌, 뻣뻣함, 화끈거리는 느낌, 무감각 혹은 찌릿찌릿함 등)<br/>
+                        을 느끼신 적이 있습니까?
+                    </p>
+                    <div class="yesOrNo">
+                        <ul>
+                            <li>
+                                <input type="radio" id="form_06_01_01" name="form_06_01" value="1">
+                                <label class="1" for="form_06_01_01">
+                                    <div>Y</div>
+                                </label>
+                                <p>있습니다</p>
+                            </li>
+                            <li>
+                                <input type="radio" id="form_06_01_02" name="form_06_01" value="2">
+                                <label class="2" for="form_06_01_02">
+                                    <div>N</div>
+                                </label>
+                                <p>없습니다</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="s04">
+                    <div class="check">
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="form_07_01" name="form_07_01" value="1">
+                                <label class="1" for="form_07_01">
+                                    <div></div>
+                                </label>
+                                <p>목</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="form_07_02" name="form_07_01" value="2">
+                                <label class="2" for="form_07_02">
+                                    <div></div>
+                                </label>
+                                <p>어깨</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="form_07_03" name="form_07_01" value="3">
+                                <label class="3" for="form_07_03">
+                                    <div></div>
+                                </label>
+                                <p>팔/팔꿈치</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="form_07_04" name="form_07_01" value="4">
+                                <label class="4" for="form_07_04">
+                                    <div></div>
+                                </label>
+                                <p>손/손목</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="form_07_05" name="form_07_01" value="5">
+                                <label class="5" for="form_07_05">
+                                    <div></div>
+                                </label>
+                                <p>허리</p>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="form_07_06" name="form_07_01" value="6">
+                                <label class="6" for="form_07_06">
+                                    <div></div>
+                                </label>
+                                <p>다리/발</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hide">
+                        <ul>
+                            <li class="neck checklist">
+                                <h2>목 통증부위에 대한 질문입니다 :D</h2>
+                                <ul>
+                                    <li>
+                                        <h4>
+                                            1. 한번 아프기 시작하면 통증 기간은 얼마동안 지속됩니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_08_01_01" name="form_08_01" value="1">
+                                            <label class="1" for="form_08_01_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>1일 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_08_01_02" name="form_08_01" value="2">
+                                            <label class="2" for="form_08_01_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>1일~1주일 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_08_01_03" name="form_08_01" value="3">
+                                            <label class="3" for="form_08_01_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>1주일 ~ 1달 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_08_01_04" name="form_08_01" value="4">
+                                            <label class="4" for="form_08_01_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>1달~6개월 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_08_01_05" name="form_08_01" value="5">
+                                            <label class="5" for="form_08_01_05">
+                                                <div>5</div>
+                                            </label>
+                                            <h3>6개월 이상</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            2. 그때의 아픈 정도는 어느 정도 입니까? (보기 참조)
+                                        </h4>
+                                        <div>
+                                            <div class="ex">
+                                                <p><보기></p>
+                                                <p>
+                                                    # 약한 통증 : 약간 불편한 정도이나 작업에 열중할 때는 못 느낀다.
+                                                </p>
+                                                <p>
+                                                    # 중간 통증 : 작업 중 통증이 있으나 귀가 후 휴식을 취하면 괜찮다.
+                                                </p>
+                                                <p>
+                                                    # 심한 통증 : 작업 중 통증이 비교적 심하고 귀가 후에도 통증에 계속 된다.
+                                                </p>
+                                                <p>
+                                                    # 매우 심한 통증 : 통증 때문에 작업은 물론 일상생활을 하기가 어렵다.
+                                                </p>
+                                            </div>
+                                            <input type="radio" id="form_08_02_01" name="form_08_02" value="1">
+                                            <label class="1" for="form_08_02_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>약한 통증</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_08_02_02" name="form_08_02" value="2">
+                                            <label class="2" for="form_08_02_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>중간 통증</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_08_02_03" name="form_08_02" value="3">
+                                            <label class="3" for="form_08_02_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>심한 통증</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_08_02_04" name="form_08_02" value="4">
+                                            <label class="4" for="form_08_02_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>매우 심한 통증</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            3. 지난 1년동안 이러한 증상을 얼마나 경험하셨습니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_08_03_01" name="form_08_03" value="1">
+                                            <label class="1" for="form_08_03_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>6개월에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_08_03_02" name="form_08_03" value="2">
+                                            <label class="2" for="form_08_03_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>2~3달에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_08_03_03" name="form_08_03" value="3">
+                                            <label class="3" for="form_08_03_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>1달에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_08_03_04" name="form_08_03" value="4">
+                                            <label class="4" for="form_08_03_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>1주일에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_08_03_05" name="form_08_03" value="5">
+                                            <label class="5" for="form_08_03_05">
+                                                <div>5</div>
+                                            </label>
+                                            <h3>매일</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            4. 지난 1주일 동안에도 이러한 증상이 있었습니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_08_04_01" name="form_08_04" value="1">
+                                            <label class="1" for="form_08_04_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>예</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_08_04_02" name="form_08_04" value="2">
+                                            <label class="2" for="form_08_04_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>아니오</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            5. 지난 1년동안 이러한 통증으로 인해 어떤 일이 있었습니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_08_05_01" name="form_08_05" value="1">
+                                            <label class="1" for="form_08_05_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>병원/한의원 치료</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_08_05_02" name="form_08_05" value="2">
+                                            <label class="2" for="form_08_05_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>약국 치료</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_08_05_03" name="form_08_05" value="3">
+                                            <label class="3" for="form_08_05_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>병가, 산재</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_08_05_04" name="form_08_05" value="4">
+                                            <label class="4" for="form_08_05_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>작업 전환</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_08_05_05" name="form_08_05" value="5">
+                                            <label class="5" for="form_08_05_05">
+                                                <div>5</div>
+                                            </label>
+                                            <h3>해당사항 없음</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_08_05_06" name="form_08_05" value="6">
+                                            <label class="6" for="form_08_05_06">
+                                                <div>6</div>
+                                            </label>
+                                            <h3>기타 <input type="textbox"/></h3>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="shoulder checklist">
+                                <h2>어깨 통증부위에 대한 질문입니다 :D</h2>
+                                <ul>
+                                    <li>
+                                        <h4>
+                                            1. 통증의 구체적 부위는?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_09_00_01" name="form_09_00" value="1">
+                                            <label class="1" for="form_09_00_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>오른쪽</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_00_02" name="form_09_00" value="2">
+                                            <label class="2" for="form_09_00_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>왼쪽</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_00_03" name="form_09_00" value="3">
+                                            <label class="3" for="form_09_00_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>양쪽 모두</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            2. 한번 아프기 시작하면 통증 기간은 얼마동안 지속됩니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_09_01_01" name="form_09_01" value="1">
+                                            <label class="1" for="form_09_01_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>1일 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_01_02" name="form_09_01" value="2">
+                                            <label class="2" for="form_09_01_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>1일~1주일 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_01_03" name="form_09_01" value="3">
+                                            <label class="3" for="form_09_01_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>1주일 ~ 1달 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_01_04" name="form_09_01" value="4">
+                                            <label class="4" for="form_09_01_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>1달~6개월 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_01_05" name="form_09_01" value="5">
+                                            <label class="5" for="form_09_01_05">
+                                                <div>5</div>
+                                            </label>
+                                            <h3>6개월 이상</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            3. 그때의 아픈 정도는 어느 정도 입니까? (보기 참조)
+                                        </h4>
+                                        <div>
+                                            <div class="ex">
+                                                <p><보기></p>
+                                                <p>
+                                                    # 약한 통증 : 약간 불편한 정도이나 작업에 열중할 때는 못 느낀다.
+                                                </p>
+                                                <p>
+                                                    # 중간 통증 : 작업 중 통증이 있으나 귀가 후 휴식을 취하면 괜찮다.
+                                                </p>
+                                                <p>
+                                                    # 심한 통증 : 작업 중 통증이 비교적 심하고 귀가 후에도 통증에 계속 된다.
+                                                </p>
+                                                <p>
+                                                    # 매우 심한 통증 : 통증 때문에 작업은 물론 일상생활을 하기가 어렵다.
+                                                </p>
+                                            </div>
+                                            <input type="radio" id="form_09_02_01" name="form_09_02" value="1">
+                                            <label class="1" for="form_09_02_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>약한 통증</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_02_02" name="form_09_02" value="2">
+                                            <label class="2" for="form_09_02_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>중간 통증</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_02_03" name="form_09_02" value="3">
+                                            <label class="3" for="form_09_02_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>심한 통증</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_02_04" name="form_09_02" value="4">
+                                            <label class="4" for="form_09_02_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>매우 심한 통증</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            4. 지난 1년동안 이러한 증상을 얼마나 경험하셨습니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_09_03_01" name="form_09_03" value="1">
+                                            <label class="1" for="form_09_03_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>6개월에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_03_02" name="form_09_03" value="2">
+                                            <label class="2" for="form_09_03_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>2~3달에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_03_03" name="form_09_03" value="3">
+                                            <label class="3" for="form_09_03_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>1달에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_03_04" name="form_09_03" value="4">
+                                            <label class="4" for="form_09_03_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>1주일에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_03_05" name="form_09_03" value="5">
+                                            <label class="5" for="form_09_03_05">
+                                                <div>5</div>
+                                            </label>
+                                            <h3>매일</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            5. 지난 1주일 동안에도 이러한 증상이 있었습니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_09_04_01" name="form_09_04" value="1">
+                                            <label class="1" for="form_09_04_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>예</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_04_02" name="form_09_04" value="2">
+                                            <label class="2" for="form_09_04_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>아니오</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            6. 지난 1년동안 이러한 통증으로 인해 어떤 일이 있었습니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_09_05_01" name="form_09_05" value="1">
+                                            <label class="1" for="form_09_05_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>병원/한의원 치료</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_05_02" name="form_09_05" value="2">
+                                            <label class="2" for="form_09_05_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>약국 치료</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_05_03" name="form_09_05" value="3">
+                                            <label class="3" for="form_09_05_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>병가, 산재</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_05_04" name="form_09_05" value="4">
+                                            <label class="4" for="form_09_05_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>작업 전환</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_05_05" name="form_09_05" value="5">
+                                            <label class="5" for="form_09_05_05">
+                                                <div>5</div>
+                                            </label>
+                                            <h3>해당사항 없음</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_09_05_06" name="form_09_05" value="6">
+                                            <label class="6" for="form_09_05_06">
+                                                <div>6</div>
+                                            </label>
+                                            <h3>기타 <input type="textbox"/></h3>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="arm checklist">
+                                <h2>팔/팔꿈치 통증부위에 대한 질문입니다 :D</h2>
+                                <ul>
+                                    <li>
+                                        <h4>
+                                            1. 통증의 구체적 부위는?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_10_00_01" name="form_10_00" value="1">
+                                            <label class="1" for="form_10_00_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>오른쪽</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_00_02" name="form_10_00" value="2">
+                                            <label class="2" for="form_10_00_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>왼쪽</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_00_03" name="form_10_00" value="3">
+                                            <label class="3" for="form_10_00_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>양쪽 모두</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            2. 한번 아프기 시작하면 통증 기간은 얼마동안 지속됩니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_10_01_01" name="form_10_01" value="1">
+                                            <label class="1" for="form_10_01_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>1일 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_01_02" name="form_10_01" value="2">
+                                            <label class="2" for="form_10_01_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>1일~1주일 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_01_03" name="form_10_01" value="3">
+                                            <label class="3" for="form_10_01_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>1주일 ~ 1달 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_01_04" name="form_10_01" value="4">
+                                            <label class="4" for="form_10_01_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>1달~6개월 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_01_05" name="form_10_01" value="5">
+                                            <label class="5" for="form_10_01_05">
+                                                <div>5</div>
+                                            </label>
+                                            <h3>6개월 이상</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            3. 그때의 아픈 정도는 어느 정도 입니까? (보기 참조)
+                                        </h4>
+                                        <div>
+                                            <div class="ex">
+                                                <p><보기></p>
+                                                <p>
+                                                    # 약한 통증 : 약간 불편한 정도이나 작업에 열중할 때는 못 느낀다.
+                                                </p>
+                                                <p>
+                                                    # 중간 통증 : 작업 중 통증이 있으나 귀가 후 휴식을 취하면 괜찮다.
+                                                </p>
+                                                <p>
+                                                    # 심한 통증 : 작업 중 통증이 비교적 심하고 귀가 후에도 통증에 계속 된다.
+                                                </p>
+                                                <p>
+                                                    # 매우 심한 통증 : 통증 때문에 작업은 물론 일상생활을 하기가 어렵다.
+                                                </p>
+                                            </div>
+                                            <input type="radio" id="form_10_02_01" name="form_10_02" value="1">
+                                            <label class="1" for="form_10_02_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>약한 통증</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_02_02" name="form_10_02" value="2">
+                                            <label class="2" for="form_10_02_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>중간 통증</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_02_03" name="form_10_02" value="3">
+                                            <label class="3" for="form_10_02_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>심한 통증</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_02_04" name="form_10_02" value="4">
+                                            <label class="4" for="form_10_02_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>매우 심한 통증</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            4. 지난 1년동안 이러한 증상을 얼마나 경험하셨습니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_10_03_01" name="form_10_03" value="1">
+                                            <label class="1" for="form_10_03_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>6개월에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_03_02" name="form_10_03" value="2">
+                                            <label class="2" for="form_10_03_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>2~3달에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_03_03" name="form_10_03" value="3">
+                                            <label class="3" for="form_10_03_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>1달에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_03_04" name="form_10_03" value="4">
+                                            <label class="4" for="form_10_03_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>1주일에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_03_05" name="form_10_03" value="5">
+                                            <label class="5" for="form_10_03_05">
+                                                <div>5</div>
+                                            </label>
+                                            <h3>매일</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            5. 지난 1주일 동안에도 이러한 증상이 있었습니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_10_04_01" name="form_10_04" value="1">
+                                            <label class="1" for="form_10_04_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>예</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_04_02" name="form_10_04" value="2">
+                                            <label class="2" for="form_10_04_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>아니오</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            6. 지난 1년동안 이러한 통증으로 인해 어떤 일이 있었습니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_10_05_01" name="form_10_05" value="1">
+                                            <label class="1" for="form_10_05_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>병원/한의원 치료</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_05_02" name="form_10_05" value="2">
+                                            <label class="2" for="form_10_05_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>약국 치료</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_05_03" name="form_10_05" value="3">
+                                            <label class="3" for="form_10_05_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>병가, 산재</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_05_04" name="form_10_05" value="4">
+                                            <label class="4" for="form_10_05_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>작업 전환</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_05_05" name="form_10_05" value="5">
+                                            <label class="5" for="form_10_05_05">
+                                                <div>5</div>
+                                            </label>
+                                            <h3>해당사항 없음</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_10_05_06" name="form_10_05" value="6">
+                                            <label class="6" for="form_10_05_06">
+                                                <div>6</div>
+                                            </label>
+                                            <h3>기타 <input type="textbox"/></h3>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="hand checklist">
+                                <h2>손/손목/손가락 통증부위에 대한 질문입니다 :D</h2>
+                                <ul>
+                                    <li>
+                                        <h4>
+                                            1. 통증의 구체적 부위는?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_11_00_01" name="form_11_00" value="1">
+                                            <label class="1" for="form_11_00_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>오른쪽</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_00_02" name="form_11_00" value="2">
+                                            <label class="2" for="form_11_00_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>왼쪽</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_00_03" name="form_11_00" value="3">
+                                            <label class="3" for="form_11_00_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>양쪽 모두</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            2. 한번 아프기 시작하면 통증 기간은 얼마동안 지속됩니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_11_01_01" name="form_11_01" value="1">
+                                            <label class="1" for="form_11_01_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>1일 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_01_02" name="form_11_01" value="2">
+                                            <label class="2" for="form_11_01_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>1일~1주일 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_01_03" name="form_11_01" value="3">
+                                            <label class="3" for="form_11_01_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>1주일 ~ 1달 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_01_04" name="form_11_01" value="4">
+                                            <label class="4" for="form_11_01_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>1달~6개월 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_01_05" name="form_11_01" value="5">
+                                            <label class="5" for="form_11_01_05">
+                                                <div>5</div>
+                                            </label>
+                                            <h3>6개월 이상</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            3. 그때의 아픈 정도는 어느 정도 입니까? (보기 참조)
+                                        </h4>
+                                        <div>
+                                            <div class="ex">
+                                                <p><보기></p>
+                                                <p>
+                                                    # 약한 통증 : 약간 불편한 정도이나 작업에 열중할 때는 못 느낀다.
+                                                </p>
+                                                <p>
+                                                    # 중간 통증 : 작업 중 통증이 있으나 귀가 후 휴식을 취하면 괜찮다.
+                                                </p>
+                                                <p>
+                                                    # 심한 통증 : 작업 중 통증이 비교적 심하고 귀가 후에도 통증에 계속 된다.
+                                                </p>
+                                                <p>
+                                                    # 매우 심한 통증 : 통증 때문에 작업은 물론 일상생활을 하기가 어렵다.
+                                                </p>
+                                            </div>
+                                            <input type="radio" id="form_11_02_01" name="form_11_02" value="1">
+                                            <label class="1" for="form_11_02_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>약한 통증</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_02_02" name="form_11_02" value="2">
+                                            <label class="2" for="form_11_02_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>중간 통증</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_02_03" name="form_11_02" value="3">
+                                            <label class="3" for="form_11_02_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>심한 통증</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_02_04" name="form_11_02" value="4">
+                                            <label class="4" for="form_11_02_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>매우 심한 통증</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            4. 지난 1년동안 이러한 증상을 얼마나 경험하셨습니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_11_03_01" name="form_11_03" value="1">
+                                            <label class="1" for="form_11_03_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>6개월에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_03_02" name="form_11_03" value="2">
+                                            <label class="2" for="form_11_03_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>2~3달에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_03_03" name="form_11_03" value="3">
+                                            <label class="3" for="form_11_03_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>1달에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_03_04" name="form_11_03" value="4">
+                                            <label class="4" for="form_11_03_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>1주일에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_03_05" name="form_11_03" value="5">
+                                            <label class="5" for="form_11_03_05">
+                                                <div>5</div>
+                                            </label>
+                                            <h3>매일</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            5. 지난 1주일 동안에도 이러한 증상이 있었습니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_11_04_01" name="form_11_04" value="1">
+                                            <label class="1" for="form_11_04_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>예</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_04_02" name="form_11_04" value="2">
+                                            <label class="2" for="form_11_04_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>아니오</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            6. 지난 1년동안 이러한 통증으로 인해 어떤 일이 있었습니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_11_05_01" name="form_11_05" value="1">
+                                            <label class="1" for="form_11_05_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>병원/한의원 치료</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_05_02" name="form_11_05" value="2">
+                                            <label class="2" for="form_11_05_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>약국 치료</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_05_03" name="form_11_05" value="3">
+                                            <label class="3" for="form_11_05_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>병가, 산재</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_05_04" name="form_11_05" value="4">
+                                            <label class="4" for="form_11_05_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>작업 전환</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_05_05" name="form_11_05" value="5">
+                                            <label class="5" for="form_11_05_05">
+                                                <div>5</div>
+                                            </label>
+                                            <h3>해당사항 없음</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_11_05_06" name="form_11_05" value="6">
+                                            <label class="6" for="form_11_05_06">
+                                                <div>6</div>
+                                            </label>
+                                            <h3>기타 <input type="textbox"/></h3>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="waist checklist">
+                                <h2>허리 통증부위에 대한 질문입니다 :D</h2>
+                                <ul>
+                                    <li>
+                                        <h4>
+                                            1. 한번 아프기 시작하면 통증 기간은 얼마동안 지속됩니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_12_01_01" name="form_12_01" value="1">
+                                            <label class="1" for="form_12_01_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>1일 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_12_01_02" name="form_12_01" value="2">
+                                            <label class="2" for="form_12_01_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>1일~1주일 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_12_01_03" name="form_12_01" value="3">
+                                            <label class="3" for="form_12_01_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>1주일 ~ 1달 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_12_01_04" name="form_12_01" value="4">
+                                            <label class="4" for="form_12_01_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>1달~6개월 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_12_01_05" name="form_12_01" value="5">
+                                            <label class="5" for="form_12_01_05">
+                                                <div>5</div>
+                                            </label>
+                                            <h3>6개월 이상</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            2. 그때의 아픈 정도는 어느 정도 입니까? (보기 참조)
+                                        </h4>
+                                        <div>
+                                            <div class="ex">
+                                                <p><보기></p>
+                                                <p>
+                                                    # 약한 통증 : 약간 불편한 정도이나 작업에 열중할 때는 못 느낀다.
+                                                </p>
+                                                <p>
+                                                    # 중간 통증 : 작업 중 통증이 있으나 귀가 후 휴식을 취하면 괜찮다.
+                                                </p>
+                                                <p>
+                                                    # 심한 통증 : 작업 중 통증이 비교적 심하고 귀가 후에도 통증에 계속 된다.
+                                                </p>
+                                                <p>
+                                                    # 매우 심한 통증 : 통증 때문에 작업은 물론 일상생활을 하기가 어렵다.
+                                                </p>
+                                            </div>
+                                            <input type="radio" id="form_12_02_01" name="form_12_02" value="1">
+                                            <label class="1" for="form_12_02_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>약한 통증</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_12_02_02" name="form_12_02" value="2">
+                                            <label class="2" for="form_12_02_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>중간 통증</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_12_02_03" name="form_12_02" value="3">
+                                            <label class="3" for="form_12_02_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>심한 통증</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_12_02_04" name="form_12_02" value="4">
+                                            <label class="4" for="form_12_02_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>매우 심한 통증</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            3. 지난 1년동안 이러한 증상을 얼마나 경험하셨습니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_12_03_01" name="form_12_03" value="1">
+                                            <label class="1" for="form_12_03_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>6개월에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_12_03_02" name="form_12_03" value="2">
+                                            <label class="2" for="form_12_03_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>2~3달에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_12_03_03" name="form_12_03" value="3">
+                                            <label class="3" for="form_12_03_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>1달에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_12_03_04" name="form_12_03" value="4">
+                                            <label class="4" for="form_12_03_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>1주일에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_12_03_05" name="form_12_03" value="5">
+                                            <label class="5" for="form_12_03_05">
+                                                <div>5</div>
+                                            </label>
+                                            <h3>매일</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            4. 지난 1주일 동안에도 이러한 증상이 있었습니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_12_04_01" name="form_12_04" value="1">
+                                            <label class="1" for="form_12_04_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>예</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_12_04_02" name="form_12_04" value="2">
+                                            <label class="2" for="form_12_04_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>아니오</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            5. 지난 1년동안 이러한 통증으로 인해 어떤 일이 있었습니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_12_05_01" name="form_12_05" value="1">
+                                            <label class="1" for="form_12_05_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>병원/한의원 치료</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_12_05_02" name="form_12_05" value="2">
+                                            <label class="2" for="form_12_05_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>약국 치료</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_12_05_03" name="form_12_05" value="3">
+                                            <label class="3" for="form_12_05_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>병가, 산재</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_12_05_04" name="form_12_05" value="4">
+                                            <label class="4" for="form_12_05_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>작업 전환</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_12_05_05" name="form_12_05" value="5">
+                                            <label class="5" for="form_12_05_05">
+                                                <div>5</div>
+                                            </label>
+                                            <h3>해당사항 없음</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_12_05_06" name="form_12_05" value="6">
+                                            <label class="6" for="form_12_05_06">
+                                                <div>6</div>
+                                            </label>
+                                            <h3>기타 <input type="textbox"/></h3>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="leg checklist">
+                                <h2>다리/발 통증부위에 대한 질문입니다 :D</h2>
+                                <ul>
+                                    <li>
+                                        <h4>
+                                            1. 통증의 구체적 부위는?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_13_00_01" name="form_13_00" value="1">
+                                            <label class="1" for="form_13_00_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>오른쪽</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_00_02" name="form_13_00" value="2">
+                                            <label class="2" for="form_13_00_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>왼쪽</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_00_03" name="form_13_00" value="3">
+                                            <label class="3" for="form_13_00_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>양쪽 모두</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            2. 한번 아프기 시작하면 통증 기간은 얼마동안 지속됩니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_13_01_01" name="form_13_01" value="1">
+                                            <label class="1" for="form_13_01_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>1일 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_01_02" name="form_13_01" value="2">
+                                            <label class="2" for="form_13_01_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>1일~1주일 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_01_03" name="form_13_01" value="3">
+                                            <label class="3" for="form_13_01_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>1주일 ~ 1달 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_01_04" name="form_13_01" value="4">
+                                            <label class="4" for="form_13_01_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>1달~6개월 미만</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_01_05" name="form_13_01" value="5">
+                                            <label class="5" for="form_13_01_05">
+                                                <div>5</div>
+                                            </label>
+                                            <h3>6개월 이상</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            3. 그때의 아픈 정도는 어느 정도 입니까? (보기 참조)
+                                        </h4>
+                                        <div>
+                                            <div class="ex">
+                                                <p><보기></p>
+                                                <p>
+                                                    # 약한 통증 : 약간 불편한 정도이나 작업에 열중할 때는 못 느낀다.
+                                                </p>
+                                                <p>
+                                                    # 중간 통증 : 작업 중 통증이 있으나 귀가 후 휴식을 취하면 괜찮다.
+                                                </p>
+                                                <p>
+                                                    # 심한 통증 : 작업 중 통증이 비교적 심하고 귀가 후에도 통증에 계속 된다.
+                                                </p>
+                                                <p>
+                                                    # 매우 심한 통증 : 통증 때문에 작업은 물론 일상생활을 하기가 어렵다.
+                                                </p>
+                                            </div>
+                                            <input type="radio" id="form_13_02_01" name="form_13_02" value="1">
+                                            <label class="1" for="form_13_02_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>약한 통증</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_02_02" name="form_13_02" value="2">
+                                            <label class="2" for="form_13_02_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>중간 통증</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_02_03" name="form_13_02" value="3">
+                                            <label class="3" for="form_13_02_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>심한 통증</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_02_04" name="form_13_02" value="4">
+                                            <label class="4" for="form_13_02_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>매우 심한 통증</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            4. 지난 1년동안 이러한 증상을 얼마나 경험하셨습니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_13_03_01" name="form_13_03" value="1">
+                                            <label class="1" for="form_13_03_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>6개월에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_03_02" name="form_13_03" value="2">
+                                            <label class="2" for="form_13_03_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>2~3달에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_03_03" name="form_13_03" value="3">
+                                            <label class="3" for="form_13_03_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>1달에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_03_04" name="form_13_03" value="4">
+                                            <label class="4" for="form_13_03_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>1주일에 1번</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_03_05" name="form_13_03" value="5">
+                                            <label class="5" for="form_13_03_05">
+                                                <div>5</div>
+                                            </label>
+                                            <h3>매일</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            5. 지난 1주일 동안에도 이러한 증상이 있었습니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_13_04_01" name="form_13_04" value="1">
+                                            <label class="1" for="form_13_04_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>예</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_04_02" name="form_13_04" value="2">
+                                            <label class="2" for="form_13_04_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>아니오</h3>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h4>
+                                            6. 지난 1년동안 이러한 통증으로 인해 어떤 일이 있었습니까?
+                                        </h4>
+                                        <div>
+                                            <input type="radio" id="form_13_05_01" name="form_13_05" value="1">
+                                            <label class="1" for="form_13_05_01">
+                                                <div>1</div>
+                                            </label>
+                                            <h3>병원/한의원 치료</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_05_02" name="form_13_05" value="2">
+                                            <label class="2" for="form_13_05_02">
+                                                <div>2</div>
+                                            </label>
+                                            <h3>약국 치료</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_05_03" name="form_13_05" value="3">
+                                            <label class="3" for="form_13_05_03">
+                                                <div>3</div>
+                                            </label>
+                                            <h3>병가, 산재</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_05_04" name="form_13_05" value="4">
+                                            <label class="4" for="form_13_05_04">
+                                                <div>4</div>
+                                            </label>
+                                            <h3>작업 전환</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_05_05" name="form_13_05" value="5">
+                                            <label class="5" for="form_13_05_05">
+                                                <div>5</div>
+                                            </label>
+                                            <h3>해당사항 없음</h3>
+                                        </div>
+                                        <div>
+                                            <input type="radio" id="form_13_05_06" name="form_13_05" value="6">
+                                            <label class="6" for="form_13_05_06">
+                                                <div>6</div>
+                                            </label>
+                                            <h3>기타 <input type="textbox"/></h3>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="end">
+                    <h3>지금까지 설문에 응답해 주셔서 대단히 감사합니다 :D</h3>
+                    <button class="submit">제출하기</button>
+                    <button class="remove">다시하기</button>
+                    <div>
+                        <img src="images/logo.jpg" alt="">
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
